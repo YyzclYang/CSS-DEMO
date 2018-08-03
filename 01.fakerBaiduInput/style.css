@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+  fill: #b8b8b8;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  position: relative;
+}
+.inputWrapper {
+  position: relative;
+  display: inline-block;
+}
+.floatButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.suggestion {
+  display: none;
+  border: 1px #cbcccb solid;
+  position: absolute;
+  left: 0;
+  top: 34px;
+  width: 536px;
+}
+.suggestion.active {
+  display: block;
+}
+.suggestion > li {
+  font-size: 14px;
+  color: #000000;
+  line-height: 22px;
+  padding-left: 6px;
+}
+.inputWrapper {
+  float: left;
+}
+.inputWrapper + button {
+  float: left;
+  color: white;
+  background: #3988fb;
+  border: none;
+  height: 35px;
+  font-size: 14px;
+  padding: 0 20px;
+}
+.inputWrapper + button:focus {
+  outline: none;
+}
+.inputWrapper + button:hover {
+  box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  background: #3781f0;
+}
+.inputWrapper input[type='text'] {
+  border: 1px solid #b8b8b8;
+  width: 540px;
+  height: 35px;
+  line-height: 35px;
+  padding-left: 8px;
+  font-size: 16px;
+}
+.inputWrapper input[type='text']:focus {
+  outline: none;
+  border-color: #4b94fc;
+}
+.inputWrapper svg.icon {
+  width: 20px;
+  height: 20px;
+}
+.inputWrapper svg.icon:hover {
+  fill: #4b94fc;
+  cursor: pointer;
+}
+.splitLine {
+  width: 0;
+  height: 18px;
+  border-left: 1px solid #b8b8b8;
+  margin: 0 10px;
+}
