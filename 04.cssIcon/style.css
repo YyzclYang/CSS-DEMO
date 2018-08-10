@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cssIcon {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon:hover {
+  border: 1px solid RGB(134, 209, 246);
+}
+.icon-1 .circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+  position: relative;
+}
+.icon-1 .circle::after {
+  content: '';
+  position: absolute;
+  width: 15px;
+  border-bottom: 1px solid black;
+  left: 23px;
+  top: 28px;
+  transform: rotate(45deg);
+}
+
+.icon-2 .circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+  position: relative;
+}
+.icon-2 .circle::after {
+  content: '';
+  position: absolute;
+  width: 15px;
+  border-bottom: 1px solid black;
+  left: 23px;
+  top: 28px;
+  transform: rotate(45deg);
+}
+.icon-2 .circle .cross {
+  position: absolute;
+  width: 16px;
+  border-bottom: 1px solid black;
+  top: 14px;
+  left: 6px;
+}
+.icon-2 .circle .cross::after {
+  content: '';
+  position: absolute;
+  height: 16px;
+  border-left: 1px solid black;
+  left: 8px;
+  top: -8px;
+}
+
+.icon-3 .circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+  position: relative;
+}
+.icon-3 .circle::after {
+  content: '';
+  position: absolute;
+  width: 15px;
+  border-bottom: 1px solid black;
+  left: 23px;
+  top: 28px;
+  transform: rotate(45deg);
+}
+.icon-3 .circle::before {
+  content: '';
+  position: absolute;
+  width: 16px;
+  border-bottom: 1px solid black;
+  top: 14px;
+  left: 6px;
+}
