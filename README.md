@@ -8,3 +8,6 @@ CSS-Demo
 
 ## 03.rippleButton
 [源码](https://github.com/YyzclYang/CSS-DEMO/tree/master/03.rippleButton) [预览](https://yyzclyang.github.io/CSS-DEMO/03.rippleButton/index.html)
+
+## 04.cssIcon
+[源码](https://github.com/YyzclYang/CSS-DEMO/tree/master/04.cssIcon) [预览](https://yyzclyang.github.io/CSS-DEMO/04.cssIcon/index.html)
