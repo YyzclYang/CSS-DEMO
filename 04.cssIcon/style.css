@@ -6,6 +6,7 @@
 .cssIcon {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin: 20px;
 }
 
@@ -22,13 +23,15 @@
 .icon:hover {
   border: 1px solid RGB(134, 209, 246);
 }
-.icon-1 .circle {
+.circle {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   border: 1px solid black;
   position: relative;
 }
+
+/*icon-1*/
 .icon-1 .circle::after {
   content: '';
   position: absolute;
@@ -39,13 +42,7 @@
   transform: rotate(45deg);
 }
 
-.icon-2 .circle {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border: 1px solid black;
-  position: relative;
-}
+/*icon-2*/
 .icon-2 .circle::after {
   content: '';
   position: absolute;
@@ -71,13 +68,7 @@
   top: -8px;
 }
 
-.icon-3 .circle {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border: 1px solid black;
-  position: relative;
-}
+/*icon-3*/
 .icon-3 .circle::after {
   content: '';
   position: absolute;
@@ -94,4 +85,81 @@
   border-bottom: 1px solid black;
   top: 14px;
   left: 6px;
+}
+
+/*icon-4*/
+.icon-4 .cross {
+  width: 30px;
+  border-bottom: 1px solid black;
+  position: relative;
+  transform: rotate(45deg);
+}
+.icon-4 .cross::after {
+  content: '';
+  height: 30px;
+  border-left: 1px solid black;
+  position: absolute;
+  left: 15px;
+  top: -15px;
+}
+
+/*icon-5*/
+.icon-5 .lines {
+  width: 30px;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+.icon-5 .lines::before {
+  content: '';
+  width: 30px;
+  border-bottom: 1px solid black;
+  position: absolute;
+  top: -8px;
+}
+.icon-5 .lines::after {
+  content: '';
+  width: 30px;
+  border-bottom: 1px solid black;
+  position: absolute;
+  top: 8px;
+}
+
+/*icon-6*/
+.arrow {
+  width: 30px;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+.arrow::before {
+  content: '';
+  width: 16px;
+  border-bottom: 1px solid black;
+  position: absolute;
+  transform: rotate(-45deg);
+  top: -6px;
+  left: -2px;
+}
+.arrow::after {
+  content: '';
+  width: 16px;
+  border-bottom: 1px solid black;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 6px;
+  left: -2px;
+}
+
+/*icon-7*/
+.icon-7 .arrow {
+  transform: rotate(180deg);
+}
+
+/*icon-8*/
+.icon-8 .arrow {
+  transform: rotate(90deg);
+}
+
+/*icon-9*/
+.icon-9 .arrow {
+  transform: rotate(270deg);
 }
