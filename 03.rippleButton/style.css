@@ -9,7 +9,6 @@ body {
   align-items: center;
   height: 100vh;
 }
-
 .aButton {
   display: inline-block;
   background: none;
@@ -45,7 +44,6 @@ body {
 .aButton > .circle.start {
   animation: 0.8s rippling;
 }
-
 @keyframes rippling {
   0% {
     width: 0px;
