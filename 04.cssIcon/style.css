@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  content: '';
 }
 .cssIcon {
   display: flex;
@@ -39,7 +40,6 @@
 
 /*icon-1*/
 .icon-1 .circle::after {
-  content: '';
   position: absolute;
   width: 15px;
   border-bottom: 1px solid black;
@@ -50,7 +50,6 @@
 
 /*icon-2*/
 .icon-2 .circle::after {
-  content: '';
   position: absolute;
   width: 15px;
   border-bottom: 1px solid black;
@@ -66,7 +65,6 @@
   left: 6px;
 }
 .icon-2 .circle .cross::after {
-  content: '';
   position: absolute;
   height: 16px;
   border-left: 1px solid black;
@@ -76,7 +74,6 @@
 
 /*icon-3*/
 .icon-3 .circle::after {
-  content: '';
   position: absolute;
   width: 15px;
   border-bottom: 1px solid black;
@@ -85,7 +82,6 @@
   transform: rotate(45deg);
 }
 .icon-3 .circle::before {
-  content: '';
   position: absolute;
   width: 16px;
   border-bottom: 1px solid black;
@@ -101,7 +97,6 @@
   transform: rotate(45deg);
 }
 .icon-4 .cross::after {
-  content: '';
   height: 30px;
   border-left: 1px solid black;
   position: absolute;
@@ -116,14 +111,12 @@
   position: relative;
 }
 .icon-5 .lines::before {
-  content: '';
   width: 30px;
   border-bottom: 1px solid black;
   position: absolute;
   top: -8px;
 }
 .icon-5 .lines::after {
-  content: '';
   width: 30px;
   border-bottom: 1px solid black;
   position: absolute;
@@ -137,7 +130,6 @@
   position: relative;
 }
 .arrow::before {
-  content: '';
   width: 16px;
   border-bottom: 1px solid black;
   position: absolute;
@@ -146,7 +138,6 @@
   left: -2px;
 }
 .arrow::after {
-  content: '';
   width: 16px;
   border-bottom: 1px solid black;
   position: absolute;
@@ -177,7 +168,6 @@
   position: relative;
 }
 .icon-10 .plus::before {
-  content: '';
   height: 30px;
   border-left: 1px solid black;
   position: absolute;
@@ -208,7 +198,6 @@
   transform: rotate(45deg);
 }
 .icon-13 .remove::before {
-  content: '';
   height: 30px;
   border-left: 1px solid black;
   position: absolute;
@@ -224,7 +213,6 @@
   margin-top: -15px;
 }
 .icon-14 .trash::before {
-  content: '';
   width: 16px;
   height: 6px;
   border: 1px solid black;
@@ -235,7 +223,6 @@
   left: 7px;
 }
 .icon-14 .trash::after {
-  content: '';
   width: 20px;
   height: 24px;
   border: 1px solid black;
@@ -255,7 +242,6 @@
   position: relative;
 }
 .icon-15 .audio::before {
-  content: '';
   width: 15px;
   height: 10px;
   border: 1px solid black;
@@ -266,10 +252,111 @@
   top: 9px;
 }
 .icon-15 .audio::after {
-  content: '';
   height: 5px;
   border-left: 1px solid black;
   position: absolute;
   left: 4px;
   top: 19px;
+}
+
+/*icon-16*/
+.icon-16 .ping {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 50% 50% 50% 0;
+  position: relative;
+  transform: rotate(-45deg);
+}
+.icon-16 .ping::before {
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: absolute;
+  left: 9px;
+  top: 10px;
+}
+/*icon-17*/
+.icon-17 .message {
+  width: 30px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+  position: relative;
+}
+.icon-17 .message::before {
+  width: 8px;
+  height: 8px;
+  border: 1px solid black;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 6px;
+  top: 15px;
+  border-top: none;
+  border-left: none;
+  background: white;
+}
+
+/*icon-18*/
+.icon-18 .stop {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  position: relative;
+}
+.icon-18 .stop::before {
+  width: 30px;
+  border-bottom: 1px solid black;
+  position: absolute;
+  top: 14px;
+  left: -1px;
+}
+/*clock*/
+.clock {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: relative;
+}
+.clock::before {
+  width: 9px;
+  height: 11px;
+  border: 1px solid black;
+  position: absolute;
+}
+
+/*icon-19*/
+.icon-19 .clock1::before {
+  border-top: none;
+  border-right: none;
+  left: 13px;
+  top: 5px;
+}
+
+/*icon-20*/
+.icon-20 .clock2::before {
+  border-bottom: none;
+  border-right: none;
+  left: 13px;
+  top: 13px;
+}
+
+/*icon-21*/
+.icon-21 .clock3::before {
+  border-top: none;
+  border-left: none;
+  left: 5px;
+  top: 5px;
+}
+
+/*icon-22*/
+.icon-22 .clock4::before {
+  border-bottom: none;
+  border-left: none;
+  left: 5px;
+  top: 13px;
 }
