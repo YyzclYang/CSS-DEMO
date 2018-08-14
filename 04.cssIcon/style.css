@@ -464,3 +464,104 @@
   left: 2px;
   background: white;
 }
+
+/*icon-27*/
+.icon-27 .pen {
+  width: 30px;
+  height: 8px;
+  border: 1px solid black;
+  position: relative;
+  transform: rotate(-45deg);
+}
+.icon-27 .pen::before {
+  width: 12px;
+  height: 8px;
+  border-left: 4px solid transparent;
+  border-right: 12px solid black;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  position: absolute;
+  left: -18px;
+  top: -1px;
+}
+
+/*icon-28*/
+.icon-28 .link {
+  width: 12px;
+  border-bottom: 1px solid black;
+  position: relative;
+  transform: rotate(-45deg);
+}
+.icon .link::before {
+  width: 15px;
+  height: 11px;
+  border: 1px solid black;
+  border-radius: 3px;
+  position: absolute;
+  left: -10px;
+  top: -5px;
+}
+.icon .link::after {
+  width: 15px;
+  height: 11px;
+  border: 1px solid black;
+  border-radius: 3px;
+  position: absolute;
+  left: 7px;
+  top: -5px;
+}
+
+/*icon-29*/
+.icon-29 .map {
+  width: 10px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 2px;
+  position: relative;
+  transform: skewY(20deg);
+}
+.icon-29 .map::before {
+  width: 10px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 2px;
+  position: absolute;
+  left: -10px;
+  top: 3px;
+  transform: skewY(-40deg);
+}
+.icon-29 .map::after {
+  width: 10px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 2px;
+  position: absolute;
+  left: 8px;
+  top: -5px;
+  transform: skewY(-40deg);
+}
+
+/*icon-30*/
+.icon-30 .mail {
+  width: 30px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+  position: relative;
+}
+.icon-30 .mail::before {
+  width: 20px;
+  border-bottom: 1px solid black;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 7px;
+  left: -2px;
+}
+.icon-30 .mail::after {
+  width: 20px;
+  border-bottom: 1px solid black;
+  position: absolute;
+  transform: rotate(-45deg);
+  top: 7px;
+  left: 11px;
+}
