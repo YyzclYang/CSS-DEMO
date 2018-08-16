@@ -667,3 +667,86 @@
   left: 18px;
   top: 12px;
 }
+
+/*icon-35*/
+.icon-35 .lock {
+  width: 30px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 2px;
+  position: relative;
+}
+.icon-35 .lock::before {
+  width: 12px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 6px 6px 0 0;
+  position: absolute;
+  left: 8px;
+  top: -15px;
+}
+
+/*icon-36*/
+.icon-36 .unlock {
+  width: 30px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 2px;
+  position: relative;
+}
+.icon-36 .unlock::before {
+  width: 12px;
+  height: 10px;
+  border: 1px solid black;
+  border-bottom: none;
+  border-radius: 6px 6px 0 0;
+  position: absolute;
+  left: 8px;
+  top: -15px;
+}
+.icon-36 .unlock::after {
+  height: 5px;
+  border-left: 1px solid black;
+  position: absolute;
+  left: 8px;
+  top: -5px;
+}
+
+/*icon-37*/
+.icon-37 .code {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
+  position: relative;
+  transform: rotate(45deg);
+  left: -10px;
+}
+.icon-37 .code::before {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  border-bottom: none;
+  border-left: none;
+  position: absolute;
+  left: 8px;
+  top: -8px;
+}
+
+/*icon-38*/
+.icon-38 .flag {
+  height: 30px;
+  border-left: 1px solid black;
+  position: relative;
+  left: -10px;
+}
+.icon-38 .flag::before {
+  width: 20px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 2px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+}
