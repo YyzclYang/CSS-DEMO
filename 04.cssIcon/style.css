@@ -750,3 +750,62 @@
   left: 2px;
   top: 2px;
 }
+
+/*icon-39*/
+.icon-39 .tag {
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  border-bottom: none;
+  border-right: none;
+  position: relative;
+}
+.icon-39 .tag::before {
+  width: 21px;
+  height: 21px;
+  border: 1px solid black;
+  border-top: none;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 3px;
+  top: 3px;
+}
+.icon-39 .tag::after {
+  width: 3px;
+  height: 3px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+/*icon-40*/
+.icon-40 .wifi {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-top: 1px solid black;
+  border-radius: 50%;
+  position: relative;
+}
+.icon-40 .wifi::before {
+  width: 22px;
+  height: 22px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-top: 1px solid black;
+  border-radius: 50%;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+}
+.icon-40 .wifi::after {
+  width: 14px;
+  height: 14px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-top: 1px solid black;
+  border-radius: 50%;
+  position: absolute;
+  left: 7px;
+  top: 7px;
+}
