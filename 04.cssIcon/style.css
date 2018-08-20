@@ -809,3 +809,125 @@
   left: 7px;
   top: 7px;
 }
+
+/*icon-41*/
+.icon-41 .export {
+  width: 21px;
+  height: 21px;
+  border: 1px solid black;
+  border-radius: 2px;
+  position: relative;
+}
+.icon-41 .export::before {
+  width: 1px;
+  height: 15px;
+  box-sizing: content-box;
+  background-color: black;
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+  position: absolute;
+  left: 5px;
+  top: -7px;
+}
+.icon-41 .export::after {
+  width: 7px;
+  height: 7px;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  position: absolute;
+  transform: rotate(45deg);
+  left: 6px;
+  top: -7px;
+}
+
+/*icon-42*/
+.icon-42 .upload {
+  width: 21px;
+  height: 10px;
+  border: 1px solid black;
+  border-top: none;
+  border-radius: 2px;
+  position: relative;
+}
+.icon-42 .upload::before {
+  width: 1px;
+  height: 10px;
+  box-sizing: content-box;
+  background-color: black;
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+  position: absolute;
+  left: 5px;
+  top: -7px;
+}
+.icon-42 .upload::after {
+  width: 7px;
+  height: 7px;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  position: absolute;
+  transform: rotate(45deg);
+  left: 6px;
+  top: -7px;
+}
+
+/*icon-43*/
+.icon-43 .import {
+  width: 21px;
+  height: 21px;
+  border: 1px solid black;
+  border-radius: 2px;
+  position: relative;
+}
+.icon-43 .import::before {
+  width: 1px;
+  height: 15px;
+  box-sizing: content-box;
+  background-color: black;
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+  position: absolute;
+  left: 5px;
+  top: -5px;
+}
+.icon-43 .import::after {
+  width: 7px;
+  height: 7px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 6px;
+  top: 2px;
+}
+
+/*icon-44*/
+.icon-44 .download {
+  width: 21px;
+  height: 10px;
+  border: 1px solid black;
+  border-top: none;
+  border-radius: 2px;
+  position: relative;
+}
+.icon-44 .download::before {
+  width: 1px;
+  height: 10px;
+  box-sizing: content-box;
+  background-color: black;
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+  position: absolute;
+  left: 5px;
+  top: -5px;
+}
+.icon-44 .download::after {
+  width: 7px;
+  height: 7px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 6px;
+  top: -2px;
+}
