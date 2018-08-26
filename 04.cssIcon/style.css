@@ -931,3 +931,23 @@
   left: 6px;
   top: -2px;
 }
+
+/*icon-45*/
+.icon-45 .shutdown {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: relative;
+}
+.icon-45 .shutdown::before {
+  width: 1px;
+  height: 15px;
+  background: black;
+  box-sizing: content-box;
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+  position: absolute;
+  left: 9px;
+  top: -3px;
+}
