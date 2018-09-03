@@ -951,3 +951,140 @@
   left: 9px;
   top: -3px;
 }
+
+/*icon-46*/
+.icon-46 .paperclip {
+  width: 16px;
+  height: 26px;
+  border: 1px solid black;
+  border-radius: 8px 8px 0 0;
+  border-bottom: none;
+  position: relative;
+  transform: rotate(45deg);
+}
+.icon-46 .paperclip::before {
+  width: 12px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 0 0 6px 6px;
+  border-top: none;
+  position: absolute;
+  left: -1px;
+  top: 25px;
+}
+.icon-46 .paperclip::after {
+  width: 8px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 6px 6px 0 0;
+  border-bottom: none;
+  position: absolute;
+  left: 3px;
+  top: 5px;
+}
+
+/*icon-47*/
+.icon-47 .retweet {
+  width: 30px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 2px;
+  position: relative;
+}
+.icon-47 .retweet::before {
+  width: 10px;
+  height: 10px;
+  border-top: 5px solid white;
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+  border-bottom: 5px solid black;
+  position: absolute;
+  left: -5px;
+  top: -2px;
+}
+.icon-47 .retweet::after {
+  width: 10px;
+  height: 10px;
+  border-top: 5px solid black;
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+  position: absolute;
+  left: 23px;
+  top: 11px;
+}
+
+/*icon-48*/
+.icon-48 .key {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: relative;
+  left: -10px;
+}
+.icon-48 .key::before {
+  width: 25px;
+  border-bottom: 1px solid black;
+  position: absolute;
+  left: 19px;
+  top: 9px;
+}
+.icon-48 .key::after {
+  width: 5px;
+  height: 5px;
+  border: 1px solid black;
+  border-bottom: none;
+  position: absolute;
+  top: 9px;
+  left: 35px;
+}
+
+/*icon-49*/
+.icon-49 .key2 {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: relative;
+  left: 10px;
+  top: -10px;
+  transform: rotate(135deg);
+}
+.icon-49 .key2::before {
+  width: 25px;
+  border-bottom: 1px solid black;
+  position: absolute;
+  left: 19px;
+  top: 9px;
+}
+.icon-49 .key2::after {
+  width: 5px;
+  height: 5px;
+  border: 1px solid black;
+  border-top: none;
+  position: absolute;
+  top: 5px;
+  left: 35px;
+}
+
+/*icon-50*/
+.icon-50 .refresh {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  border-left: 1px solid white;
+  position: relative;
+}
+.icon-50 .refresh::before {
+  width: 8px;
+  height: 8px;
+  border: 1px solid black;
+  border-right: none;
+  border-bottom: none;
+  position: absolute;
+  left: 2px;
+  top: 14px;
+  transform: rotate(-15deg);
+}
