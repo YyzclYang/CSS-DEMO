@@ -1114,7 +1114,7 @@
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   position: relative;
-  top: -6px;
+  top: -7px;
 }
 .icon-52 .justified::before {
   width: 30px;
@@ -1161,6 +1161,7 @@
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   position: relative;
+  top: -5px;
 }
 .icon-54 .leftAlign::before {
   width: 20px;
@@ -1178,6 +1179,7 @@
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   position: relative;
+  top: -5px;
 }
 .icon-55 .centerAlign::before {
   width: 20px;
@@ -1196,6 +1198,7 @@
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   position: relative;
+  top: -5px;
 }
 .icon-56 .rightAlign::before {
   width: 20px;
@@ -1214,7 +1217,7 @@
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   position: relative;
-  top: -6px;
+  top: -7px;
 }
 .icon-57 .indent::before {
   width: 30px;
@@ -1238,11 +1241,10 @@
 /*icon-58*/
 .icon-58 .outdent {
   width: 30px;
-  height: 24px;
+  height: 22px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   position: relative;
-  top: -6px;
 }
 .icon-58 .outdent::before {
   width: 18px;
@@ -1250,7 +1252,7 @@
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   position: absolute;
-  top: 7px;
+  top: 6px;
   right: 0;
 }
 .icon-58 .outdent::after {
@@ -1263,4 +1265,51 @@
   position: absolute;
   top: 4px;
   left: -6px;
+}
+
+/*icon-59*/
+.icon-59 .mouse {
+  width: 21px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: relative;
+}
+.icon-59 .mouse::before {
+  content: '';
+  width: 21px;
+  border-bottom: 1px solid black;
+  position: absolute;
+  left: -1px;
+  top: 10px;
+}
+.icon .mouse::after {
+  content: '';
+  height: 10px;
+  border-left: 1px solid black;
+  position: absolute;
+  left: 9px;
+}
+
+/*icon-60*/
+.icon-60 .leftQuote {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: relative;
+}
+.icon-60 .leftQuote::before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  border-left: 1px solid black;
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  border-radius: 20px;
+  position: absolute;
+  transform: rotate(45deg);
+  left: -1px;
+  top: -12px;
 }
